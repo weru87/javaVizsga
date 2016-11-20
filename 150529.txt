@@ -1,0 +1,21 @@
+5.	Készítsen egy CdOlvaso osztályt. Van név (szöveg) és sebesség (egész) adata. Lehessen létrehozni a név és a sebesség megadásával (pl. „Asus”, 300) valamint lehessen létrehozni név és sebességszorzó (pl. „Asus”, 2 szeres) megadásával is, ez utóbbi esetben a sebesség mindig a szorzó*150. Írjon hozzá egy main függvényt is, amelyben létrehoz egy példányt. (4p)
+6.	Készítsen egy programot, amelyben egy rendezett map-be felveszi a következõ adatokat:
+Kiss János		5
+Nagy Béla		3
+Kocsis Imre		4
+Joo János		5
+Ezután végig iterálva a map-en írja ki a tartalmát. (5p)
+7.	Készítsen egy java felsorolás típust tipikus monitor méretekre (KICSI, KOZEPES, NAGY). Definiálja felül a toString()  metódusát úgy, hogy ne a konstans nevét adja, hanem a kicsi, közepes, nagy szövegeket. Legyen adattagja, amellyel rendre az 8, 14, 21 értékeket rendeli a konstansokhoz. Legyen getter metódusa az adattagra. (5p)
+8.	Készítsen egy java nyelvû osztályt, amelyben egy tanfolyamot reprezentál.
+a.	Tudja tárolni egy tanfolyam nevét (szöveg), leírását (szöveg), idõpontját (dátum és idõ) (Date).
+b.	Lehessen inicializálni mind a három adat megadásával.
+c.	Implementálja a tipizált Comparable tipizált interface-t úgy, hogy az összehasonlítás alapja a név legyen.
+d.	Legyen olyan metódusa, amely visszaadja az adatait szövegesen ”Név, idõpont (rövid dátum és rövid idõ): leírás” alakban. (toString felüldefiniálás) (2p)
+e.	Legyen olyan metódusa, amely egy paraméterként megadott másik objektummal tartalmi egyezõséget vizsgál. (equals felüldefiniálás) Akkor tekintsük egyenlõnek, ha a név adatuk megegyezik.
+f.	Legyen olyan metódusa, amely paraméterként kap egy Date objektumot és visszaadja, hogy a tanfolyam ugyanarra a hónapra esik-e, mint  a paraméterként megadott dátum. (2p)
+g.	Legyen olyan osztályszintû beágyazott osztálya, amely egy idõpont alapján mûködõ Comparator. (2p)
+9.	Készítsen egy futtatható osztályt, amelyben
+- egy text file-ból olvassa a tanfolyamok adatait és egy listában tárolja (5p)
+- írassa ki az összes tanfolyam adatait idõpont szerinti sorrendben, (3p)
+- írassa ki hány olyan tanfolyam van, amely januári. (2p)
+- írassa ki a név szerint legelsõ tanfolyamot. (3p)
